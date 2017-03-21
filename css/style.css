@@ -1,0 +1,59 @@
+* {
+	font-family: 'Verdana';
+}
+
+
+/* EKRAN > 1170px*/
+
+@media (min-width:1170px) {
+	header {
+		background-image: url(../obrazy/man-1.jpg);
+		height: 100vh;
+		background-size: cover;
+	}
+	#header div {
+		position: absolute;
+		top: 50%;
+		text-align: left;
+		width: 100%;
+		color: #fff;
+		text-transform: uppercase;
+		margin: 0;
+		transform: translateY(-50%);
+	}
+}
+
+
+/*992PX < EKRAN < 1170PX */
+
+@media (min-width:992px) and (max-width:1170px) {
+	header {
+		background-image: url(../obrazy/man-2.jpg);
+		height: 70vh;
+		background-size: cover;
+	}
+	#header div {
+		position: absolute;
+		top: 0;
+		right: 7px;
+		color: #fff;
+	}
+}
+
+
+/* EKRAN < 992PX */
+
+@media (max-width:992px) {
+	header {
+		background-image: url(../obrazy/man-1.jpg);
+		background-size: cover;
+		height: 50vh;
+	}
+	#header div {
+		color: #000;
+		position: absolute;
+		top: 53%;
+		width: 100%;
+		text-align: center;
+	}
+}
